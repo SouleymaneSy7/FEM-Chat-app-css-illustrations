@@ -57,8 +57,8 @@ Built with HTML and Vanilla CSS, For the animation I used GSAP!
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/chat-app-illustrations-made-with-only-html-sass-gsap-2fLPMELm76)
+- Live Site URL: [Live site URL here](https://fem-chat-app-css-illustrations.vercel.app/)
 
 ## Author
 

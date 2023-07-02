@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon Links -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Chat App CSS Illustration</title>
+  </head>
+  <body>
+    <!-- Animation -->
+    <div class="load"></div>
+    <div class="line"></div>
+    <div class="line-2"></div>
+
+    <!-- Main Container -->
+    <main class="main-container">
+      <section class="phone">
+        <!-- Phone Header -->
+
+        <div class="phone__heading">
+          <div class="back__icon"></div>
+
+          <div class="heading__profile">
+            <div class="profile__avatar">
+              <img src="./avatar.jpg" alt="Men Picture" />
+            </div>
+
+            <div class="profile__textbox">
+              <h4 class="profile__name">Samuel Green</h4>
+
+              <p class="profile__text">Available to Walk</p>
+            </div>
+          </div>
+
+          <div class="three-points">
+            <span class="point"></span>
+          </div>
+        </div>
+
+        <!-- Phone Main -->
+
+        <div class="phone__main">
+          <div class="left__msg msg">
+            <p class="msg__text">That sounds great. I’d be happy with that.</p>
+          </div>
+
+          <div class="left__msg msg">
+            <p class="msg__text">
+              Could you send over some pictures of your dog, please?
+            </p>
+          </div>
+
+          <div class="dog__img-container">
+            <img src="./dog-image-1.jpg" alt="Dog Image" />
+            <img src="./dog-image-2.jpg" alt="Dog Image" />
+            <img src="./dog-image-3.jpg" alt="Dog Image" />
+          </div>
+
+          <div class="right__msg msg">
+            <p class="msg__text">
+              Here are a few pictures. She’s a happy girl!
+            </p>
+          </div>
+
+          <div class="right__msg right__msg2 msg">
+            <p class="msg__text">Can you make it?</p>
+          </div>
+
+          <div class="left__msg msg">
+            <p class="msg__text">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
+
+          <div class="cost">
+            <a href="#" class="radio--btn"></a>
+            <p class="msg__text">30 minute walk</p>
+            <h3 class="price">$29</h3>
+          </div>
+
+          <div class="cost">
+            <div class="radio--btn"></div>
+            <p class="msg__text">1 hour walk</p>
+            <h3 class="price">$49</h3>
+          </div>
+
+          <form class="phone__form">
+            <input
+              type="text"
+              class="phone__input"
+              placeholder="Type a message…"
+              required
+            />
+
+            <button type="submit" class="input--btn"></button>
+          </form>
+        </div>
+      </section>
+
+      <section class="text-container">
+        <h1 class="main__title">Simple booking</h1>
+
+        <p class="main__text">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+      </p>
+
+      <p>
+        Code <span>&hearts;</span> by
+        <a href="https://github.com/SouleymaneSy7" target="_blank"
+          >Souleymane Sy</a
+        >
+      </p>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
